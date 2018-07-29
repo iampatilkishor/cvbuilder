@@ -1,0 +1,19 @@
+.educationDetail{
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.editcls{
+  position: absolute;
+  right: 16px;
+  color: red;
+}
+
+.inputFeildContainer{
+  height: 38px;
+}
+
+.modal-body {
+  overflow-y: scroll;
+  max-height: 320px;
+}

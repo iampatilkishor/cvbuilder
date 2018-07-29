@@ -1,0 +1,52 @@
+<br />
+<div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Profile Summary</h5>
+          <p class="card-text">Lead the development of websites and digital tools, which includes working with and managing the needs of artists, artist managers, label representatives and internal/external creative and technology teams. Strong understanding of user experience design and usability principles</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 col-md-5 col-sm-6 col-xs-12">
+        <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/images/png.jpg" alt="Card image cap">
+            </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+              Contact details
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+    </div>
+
+  </div>
+
+<br />
+<div class="card text-center">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item" >
+          <a class="nav-link text-uppercase" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/profile" >EDUCATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" [routerLinkActive]="['active']"  [routerLinkActiveOptions]="{exact:true}" [routerLink]="['experience']" >Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-uppercase" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" [routerLink]="['projects']" >Projects</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+        <router-outlet ></router-outlet>
+    </div>
+  </div>
+

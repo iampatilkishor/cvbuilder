@@ -1,0 +1,16 @@
+app-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.container-fluid{
+    position: absolute;
+    top: 56px;
+    /* bottom: 56px; */
+    /* overflow: auto; */
+}
+
+app-footer {
+
+}
